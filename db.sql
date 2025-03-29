@@ -8,14 +8,14 @@ CREATE DATABASE trainbookingDB;
 CREATE TABLE booking (
     id INT NOT NULL PRIMARY KEY,
     carriage_class_id INT,
-	passenger_id INT, --foreign
+	passenger_id INT, 
     position INT,
-	status_id INT,  --foreign
-	booking_date TIMESTAMP, --using timestamp instead of DATETIME because am using postgresql
-	starting_station_id INT, --foreign
-	ending_station_id INT, --foreign
-	train_journey_id INT, --foreign
-	ticket_class_id INT, --foreign
+	status_id INT,  
+	booking_date TIMESTAMP, 
+	starting_station_id INT, 
+	ending_station_id INT, 
+	train_journey_id INT, 
+	ticket_class_id INT,
 	amount_paid INT,
 	ticket_no INT,
 	seat_no INT
