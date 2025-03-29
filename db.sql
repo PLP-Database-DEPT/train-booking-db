@@ -1,6 +1,6 @@
 -- trainbookingDb
 
--- carriage_price table | From bash terminal
+-- carriage_price table
 CREATE TABLE carriage_price(
     -> schedule_id INT,
     -> carriage_class_id INT,
