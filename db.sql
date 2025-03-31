@@ -82,3 +82,11 @@ CREATE TABLE train_station(
 id INT PRIMARY KEY,
 station_name VARCHAR(200)
 );
+
+CREATE TABLE passenger(
+	id INT PRIMARY KEY,
+	first_name VARCHAR(50),
+	last_name VARCHAR(50),
+	email_address VARCHAR(100),
+	password VARCHAR(100)
+);
