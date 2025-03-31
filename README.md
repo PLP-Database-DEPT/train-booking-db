@@ -17,4 +17,82 @@ Through this project, learners will build foundational knowledge in database man
 ## Contributors
 
 <!-- readme: contributors -start -->
+<table>
+	<tbody>
+		<tr>
+            <td align="center">
+                <a href="https://github.com/PLP-Database-DEPT">
+                    <img src="https://avatars.githubusercontent.com/u/189024612?v=4" width="100;" alt="PLP-Database-DEPT"/>
+                    <br />
+                    <sub><b>PLP-Database-DEPT</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/lonyamasi">
+                    <img src="https://avatars.githubusercontent.com/u/147608409?v=4" width="100;" alt="lonyamasi"/>
+                    <br />
+                    <sub><b>Lynda Onyamasi</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/AAbide">
+                    <img src="https://avatars.githubusercontent.com/u/200578410?v=4" width="100;" alt="AAbide"/>
+                    <br />
+                    <sub><b>Abidemi Adewale</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/Chege-Gitiche">
+                    <img src="https://avatars.githubusercontent.com/u/104974375?v=4" width="100;" alt="Chege-Gitiche"/>
+                    <br />
+                    <sub><b>Chege-Gitiche</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/felexkuria">
+                    <img src="https://avatars.githubusercontent.com/u/50685357?v=4" width="100;" alt="felexkuria"/>
+                    <br />
+                    <sub><b>Felex Kuria</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/S-kanti">
+                    <img src="https://avatars.githubusercontent.com/u/169155874?v=4" width="100;" alt="S-kanti"/>
+                    <br />
+                    <sub><b>Kanti Sarah</b></sub>
+                </a>
+            </td>
+		</tr>
+		<tr>
+            <td align="center">
+                <a href="https://github.com/MaingiKiio">
+                    <img src="https://avatars.githubusercontent.com/u/80405994?v=4" width="100;" alt="MaingiKiio"/>
+                    <br />
+                    <sub><b>MaingiKiio</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/Mariposa-M">
+                    <img src="https://avatars.githubusercontent.com/u/203775903?v=4" width="100;" alt="Mariposa-M"/>
+                    <br />
+                    <sub><b>Mariposa-M</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/LisanzaTabby">
+                    <img src="https://avatars.githubusercontent.com/u/147367069?v=4" width="100;" alt="LisanzaTabby"/>
+                    <br />
+                    <sub><b>Tabitha Tsisika Lisanza</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/priscillanzula">
+                    <img src="https://avatars.githubusercontent.com/u/144167777?v=4" width="100;" alt="priscillanzula"/>
+                    <br />
+                    <sub><b>priscilla nzula</b></sub>
+                </a>
+            </td>
+		</tr>
+	<tbody>
+</table>
 <!-- readme: contributors -end -->
