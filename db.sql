@@ -29,3 +29,56 @@ CREATE TABLE carriage_price(
      FOREIGN KEY(schedule_id) REFERENCES schedule(id),
      FOREIGN KEY(carriage_class_id) REFERENCES carriage_class(id)
     );
+
+-- booking_status table --
+USE trainbookingDB;
+CREATE TABLE booking_status(
+id int primary key ,
+name varchar(100) 
+);
+
+--creating carriage_class table
+
+CREATE TABLE carriage_class 
+(
+id INT PRIMARY KEY AUTO_INCREMENT, 
+class_name VARCHAR(100) NOT NULL, 
+seating_capacity INT NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS  journey_carriage (
+  journey_id INT NOT NULL,
+  carriage_class_id INT NOT NULL,
+  position INT NOT NULL,
+  PRIMARY KEY(journey_id,carriage_class_id),
+  FOREIGN KEY(journey_id) REFERENCES train_journey(id),
+  FOREIGN KEY(carriage_class_id) REFERENCES carriage_class(id)
+);
+
+-- create table journey_station, setting the primary and foreign keys
+CREATE TABLE journey_station(
+journey_id INT NOT NULL,
+station_id INT NOT NULL,
+stop_order INT NOT NULL,
+departure_time TIMESTAMP NOT NULL,
+    PRIMARY KEY (journey_id, station_id),
+    FOREIGN KEY (journey_id) REFERENCES train_journey(journey_id),
+    FOREIGN KEY (station_id) REFERENCES train_station(station_id)
+);
+
+CREATE TABLE schedule(
+    id int primary key,
+    name varchar(100),
+);
+
+CREATE TABLE train_journey(
+    id INT PRIMARY KEY, 
+    schedule_id INT NOT NULL,
+    name VARCHAR(100) NOT NULL,
+    FOREIGN KEY (schedule_id) REFERENCES schedule(id)
+);
+
+CREATE TABLE train_station(
+id INT PRIMARY KEY,
+station_name VARCHAR(200)
+);
