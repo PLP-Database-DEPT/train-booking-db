@@ -13,3 +13,8 @@ Through this project, learners will build foundational knowledge in database man
 
 ### ERD
 ![trainBooking ERD](https://github.com/user-attachments/assets/7afa9d4c-cbe8-468c-bf58-567a269143c5)
+
+## Contributors
+
+<!-- readme: contributors -start -->
+<!-- readme: contributors -end -->
