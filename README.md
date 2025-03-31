@@ -35,13 +35,6 @@ Through this project, learners will build foundational knowledge in database man
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/MaingiKiio">
-                    <img src="https://avatars.githubusercontent.com/u/80405994?v=4" width="100;" alt="MaingiKiio"/>
-                    <br />
-                    <sub><b>MaingiKiio</b></sub>
-                </a>
-            </td>
-            <td align="center">
                 <a href="https://github.com/AAbide">
                     <img src="https://avatars.githubusercontent.com/u/200578410?v=4" width="100;" alt="AAbide"/>
                     <br />
@@ -62,13 +55,20 @@ Through this project, learners will build foundational knowledge in database man
                     <sub><b>Felex Kuria</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/S-kanti">
                     <img src="https://avatars.githubusercontent.com/u/169155874?v=4" width="100;" alt="S-kanti"/>
                     <br />
                     <sub><b>Kanti Sarah</b></sub>
+                </a>
+            </td>
+		</tr>
+		<tr>
+            <td align="center">
+                <a href="https://github.com/MaingiKiio">
+                    <img src="https://avatars.githubusercontent.com/u/80405994?v=4" width="100;" alt="MaingiKiio"/>
+                    <br />
+                    <sub><b>MaingiKiio</b></sub>
                 </a>
             </td>
             <td align="center">
