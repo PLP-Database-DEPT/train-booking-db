@@ -1,8 +1,10 @@
 CREATE DATABASE trainbookingDB;
 
+use trainbookingDB;
+
 CREATE TABLE schedule(
     id int primary key,
-    name varchar(100),
+    name varchar(100)
 );
 
 CREATE TABLE train_journey(
@@ -23,8 +25,8 @@ CREATE TABLE journey_station(
 	stop_order INT NOT NULL,
 	departure_time TIMESTAMP NOT NULL,
     PRIMARY KEY (journey_id, station_id),
-    FOREIGN KEY (journey_id) REFERENCES train_journey(journey_id),
-    FOREIGN KEY (station_id) REFERENCES train_station(station_id)
+    FOREIGN KEY (journey_id) REFERENCES train_journey(id),
+    FOREIGN KEY (station_id) REFERENCES train_station(id)
 );
 
 CREATE TABLE carriage_class (
@@ -81,6 +83,7 @@ CREATE TABLE booking (
     FOREIGN KEY (status_id) REFERENCES booking_status(id),
 	FOREIGN KEY (starting_station_id) REFERENCES train_station(id),
 	FOREIGN KEY (ending_station_id) REFERENCES train_station(id),
-	FOREIGN KEY (train_journey_id) REFERENCES journey_station(id),
-	FOREIGN KEY (ticket_class_id) REFERENCES carriage_class(id),
+	FOREIGN KEY (train_journey_id) REFERENCES journey_station(journey_id),
+	FOREIGN KEY (ticket_class_id) REFERENCES carriage_class(id)
+    
 );
