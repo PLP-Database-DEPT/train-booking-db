@@ -1,6 +1,6 @@
 CREATE DATABASE trainbookingDB;
 
-use trainbookingDB;
+USE trainbookingDB;
 
 CREATE TABLE schedule(
     id int primary key,
