@@ -1,3 +1,4 @@
+![example workflow](https://github.com/PLP-Database-DEPT/train-booking-db/actions/workflows/ci.yml/badge.svg)
 ### Train Booking Management System
 
 The Train Booking Management System is an open-source project designed to help learners understand how to manage and structure databases effectively in the context of a real-world application. The system aims to simulate the process of booking train tickets, managing customer data, and handling reservation details. Learners will gain hands-on experience with database design, including creating tables, defining relationships, and understanding normalization principles. 
