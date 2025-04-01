@@ -1,0 +1,25 @@
+name: Train Booking Management System Database
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    env:
+      DB_USER: root
+      DB_PASSWORD: root
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Update and Install MySQL
+        run: |
+          sudo apt-get update
+          sudo apt-get install mysql-server mysql-client -y
+
+      - name: Start MySQL and Create Database
+        run: |
+          sudo /etc/init.d/mysql start
+          mysql -u$DB_USER -p$DB_PASSWORD < db.sql
