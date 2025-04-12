@@ -73,22 +73,22 @@ CREATE TABLE passenger (
     first_name VARCHAR(50),
     last_name VARCHAR(50),
     email_address VARCHAR(100),
-    password VARCHAR(100)
+    password VARCHAR(50)
 );
 
 -- Table for storing booking details
 CREATE TABLE booking (
     id INT PRIMARY KEY,
-    carriage_class_id INT,
-    passenger_id INT, 
-    position INT,
-    status_id INT,  
+    carriage_class_id INT NOT NULL,
+    passenger_id INT,
+    position INT NOT NULL,
+    status_id INT,
     booking_date TIMESTAMP, 
     starting_station_id INT, 
     ending_station_id INT, 
     train_journey_id INT, 
     ticket_class_id INT,
-    amount_paid INT,
+    amount_paid DECIMAL(10, 2,
     ticket_no INT,
     seat_no INT,
     FOREIGN KEY (passenger_id) REFERENCES passenger(id),
